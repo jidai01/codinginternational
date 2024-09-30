@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Competition</title>
+    <link rel="icon" href="assets/logos/logodies23.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="px-1 bg-white font-monospace">
+    <nav class="navbar navbar-expand-lg border-bottom border-body" style="background-color: darkblue;"
+        data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand ps-1 pe-3 bg-white text-dark rounded" href="#">
+                <img src="assets/logos/logodies23.png" alt="Dies Natalis Ke-23" height="50"> <strong>CODING COMPETITION
+                </strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="rules.html">Rules</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="questions.html">Questions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-2 px-4" id="about" style="background-color: darkblue;">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title fs-3 text-light text-center rounded">Coding Competition</h5>
+                <div class="tab card-body">
+                    <button class="tablinks card-title fs-3 text-center rounded"
+                        onclick="openCity(event, 'Indonesia')">Indonesia</button>
+                    <button class="tablinks card-title fs-3 text-center rounded"
+                        onclick="openCity(event, 'English')">English</button>
+                </div>
+
+                <div id="Indonesia" class="tabcontent card-body">
+                    <h5 class="card-title fs-3 text-light text-center rounded">Soal Lomba Coding Internasional</h5>
+                    <p class="card-text px-5 text-justify custom-indent fs-5">
+                    <div id="soal1" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Soal 1</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Deskripsi: Buatlah program untuk menampilkan deret bilangan dari 1 hingga 100, tetapi setiap
+                            bilangan yang merupakan kelipatan 3 diganti dengan huruf 'X'. Tampilkan angka-angka dan
+                            huruf 'X' dipisahkan oleh spasi, dan setiap 10 bilangan buat baris baru.
+                            <br>Contoh Output: <br>1 2 X 4 5 X 7 8 X 10 <br>11 X 13 14 X 16 17 X 19 20 <br>...
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT JAWABAN</a>
+                    </div>
+                    <div id="soal2" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Soal 2</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Deskripsi: Buatlah program untuk menampilkan deret bilangan dari 1 hingga 50, tetapi setiap
+                            bilangan ganjil diganti dengan huruf ' G'. Tampilkan deret tersebut dalam 1 baris dengan
+                            angka-angka dan huruf 'G' dipisahkan oleh spasi. <br>Contoh Output: G 2 G 4 G 6 G 8 G 10 ...
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT
+                            JAWABAN</a>
+                    </div>
+                    <div id="soal3" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Soal 3</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Buatlah program untuk menampilkan deret bilangan dari 1 hingga 20, tetapi bilangan kelipatan
+                            4 ditampilkan dalam bentuk hasil pangkat 2, sedangkan bilangan lainnya ditampilkan seperti
+                            biasa. Tampilkan dalam satu baris dengan dipisahkan oleh tanda koma.
+                            <br>Contoh Output: 1, 2, 3, 16, 5, 6, 7, 64, 9, 10, ...
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6" class=" link-offset-2 link-underline
+                            link-underline-opacity-0">SUBMIT JAWABAN</a>
+                    </div>
+                    <div id="soal4" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Soal 4</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Deskripsi: Buatlah program untuk menampilkan array 1 x 7 dengan nilai-nilai dalam array
+                            meminta inputan dari keyboard. Tampilkan array tersebut dalam satu baris dan dipisahkan oleh
+                            spasi.
+                            <br>Contoh Input: <br>1 <br>2 <br>3 <br>4 <br>5 <br>6 <br>7 <br>Contoh Output: 1 2 3 4 5 6 7
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT
+                            JAWABAN</a>
+                    </div>
+                    <div id="soal5" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Soal 5</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Deskripsi: Buatlah program untuk menghitung jumlah bilangan kelipatan 5 dari 1 hingga 100.
+                            <br>Contoh Output: Jumlah kelipatan 5: 20
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT JAWABAN</a>
+                    </div>
+                    <div id="soal6" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Soal 6</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Deskripsi: Buatlah program untuk meminta 3 inputan string dari keyboard dan tampilkan
+                            urutannya secara terbalik.
+                            <br>Contoh Input:
+                            <br>Anton
+                            <br>Budi
+                            <br>Chika
+                            <br>Contoh Output: Chika Budi Anton
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT JAWABAN</a>
+                    </div>
+                    <div id="soal7" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Soal 7</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Deskripsi: Buatlah program untuk menghitung keliling lingkaran dengan mengambil nilai
+                            jari-jari dari keyboard. Gunakan nilai pi = 3.14.
+                            <br>Contoh Input: 7
+                            <br>Contoh Output: 43.96
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT JAWABAN</a>
+                    </div>
+                    <div id="soal8" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Soal 8</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Deskripsi: Buatlah program untuk menghitung jumlah bilangan yang habis dibagi 3 dan 5 dari 1
+                            hingga 50.
+                            <br>Contoh Output: Jumlah bilangan yang habis dibagi 3 dan 5: 3
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT JAWABAN</a>
+                    </div>
+                    <div id="soal9" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Soal 9</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Deskripsi: Buatlah program untuk menghitung faktorial dari sebuah angka yang dimasukkan oleh
+                            pengguna. Angka yang dimasukkan harus merupakan bilangan bulat positif.
+                            <br>Contoh Input: 5 <br>Contoh Output: 120
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class=" link-offset-2 link-underline link-underline-opacity-0">SUBMIT
+                            JAWABAN</a>
+                    </div>
+                    <div id="soal10" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Soal 10</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Deskripsi: Buatlah program untuk memeriksa apakah sebuah kata yang dimasukkan oleh pengguna
+                            adalah palindrom (kata yang sama dibaca dari depan maupun belakang).
+                            <br>Contoh Input: rotator
+                            <br>Contoh Output: Kata adalah palindrom
+                            <br>atau
+                            <br>Contoh Input: man
+                            <br>Contoh Output: Kata bukan palindrom
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT JAWABAN</a>
+                    </div>
+                    </p>
+                </div>
+
+                <div id="English" class="tabcontent card-body">
+                    <h5 class="card-title fs-3 text-light text-center rounded">International Coding Competition
+                        Questions
+                    </h5>
+                    <p class="card-text px-5 text-justify custom-indent fs-5">
+                    <div id="q1" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Question 1</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Description: Create a program that displays a series of numbers from 1 to 100, but every
+                            number that is a multiple of 3 should be replaced with the letter 'X'. Display the numbers
+                            and 'X' separated by spaces, and start a new line after every 10 numbers.
+                            <br>Example Output: 1 2 X 4 5 X 7 8 X 10 <br>11 X 13 14 X 16 17 X 19 20 <br>...
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT ANSWER</a>
+                    </div>
+                    <div id="q2" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Question 2</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Description: Create a program that displays a series of numbers from 1 to 50, but every odd
+                            number should be replaced with the letter 'G'. Display the series on one line with numbers
+                            and 'G' separated by spaces.
+                            <br>Example Output: G 2 G 4 G 6 G 8 G 10 ...
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT ANSWER</a>
+                    </div>
+                    <div id="q3" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Question 3</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Description: Create a program that displays a series of numbers from 1 to 20, but multiples
+                            of 4 should be displayed as their square, while other numbers are displayed normally.
+                            Display the series on one line, separated by commas.
+                            <br>Example Output: 1, 2, 3, 16, 5, 6, 7, 64, 9, 10, ...
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT ANSWER</a>
+                    </div>
+                    <div id="q4" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Question 4</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Description: Create a program that displays a 1x7 array where the values in the array are
+                            input from the keyboard. Display the array on one line, with the values separated by spaces.
+                            <br>Example Input: <br>1 <br>2 <br>3 <br>4 <br>5 <br>6 <br>7 <br>Example Output: 1 2 3 4 5 6
+                            7
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT ANSWER</a>
+                    </div>
+                    <div id="q5" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Question 5</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Description: Create a program to count how many numbers from 1 to 100 are multiples of 5.
+                            <br>Example Output: Number of multiples of 5: 20
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT ANSWER</a>
+                    </div>
+                    <div id="q6" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Question 6</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Description: Create a program that requests 3 string inputs from the keyboard and displays
+                            them in reverse order.
+                            <br>Example Input: <br>Anton <br>Budi <br>Chika <br>Example Output: Chika Budi Anton
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT ANSWER</a>
+                    </div>
+                    <div id="q7" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Question 7</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Description: Create a program to calculate the circumference of a circle by taking the
+                            radius as input from the keyboard. Use pi = 3.14.
+                            <br>Example Input: 7 <br>Example Output: 43.96
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT ANSWER</a>
+                    </div>
+                    <div id="q8" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Question 8</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Description: Create a program to count how many numbers from 1 to 50 are divisible by both 3
+                            and 5.
+                            <br>Example Output: <br>Number of numbers divisible by 3 and 5: 3
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT ANSWER</a>
+                    </div>
+                    <div id="q9" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Question 9</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Description: Create a program to calculate the factorial of a number entered by the user.
+                            The number entered must be a positive integer.
+                            <br>Example Input: 5 <br>Example Output: 120
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT ANSWER</a>
+                    </div>
+                    <div id="q10" class="py-3">
+                        <h5 class="fs-4 text-center rounded">Question 10</h5>
+                        <p class="card-text px-5 text-justify custom-indent fs-5">
+                            Description: Create a program to check if a word entered by the user is a palindrome (a word
+                            that reads the same forwards and backwards).
+                            <br>Example Input: rotator <br>Example Output: The word is a palindrome <br>or <br>Example
+                            Input: man
+                            <br>Example Output: The word is not a palindrome
+                        </p>
+                        <a href="https://forms.gle/WniayV6zGbFXNXxC6"
+                            class="link-offset-2 link-underline link-underline-opacity-0">SUBMIT ANSWER</a>
+                    </div>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+
+    <script>
+        function openCity(evt, lang) {
+            var i, tabcontent, tablinks;
+
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            document.getElementById(lang).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</body>
+
+</html>
